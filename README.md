@@ -1,26 +1,165 @@
-<h1 align="center">Hi 👋, I'm Faaiz Akhtar</h1>
-<h3 align="center">A passionate Software Developer from India</h3>
+#!/usr/bin/env python3
+"""Generates the animated SVGs used in the profile README.
 
-<img align="right" alt="DND" width="400" src="https://camo.githubusercontent.com/01c83210f7feb975ea3b9a852808beb6689425add471f76f942c15875626af5d/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537363966633430316236333162616231616464623261622f313534313538303631313632342d5445363451474b524a4738535741495553374e532f6b6531375a77644742546f6464493870446d34386b506f73776c7a6a53564d4d2d53784f703743563539425a772d7a505067646e346a557756634a45315a7657515578776b6d794578676c4e714770304976544a5a616d574c49327a76595748384b332d735f3479737a63703272795449304871544f6161556f68724938504936465879386339505774426c7141566c555335697a7064634958445a71445976707252715a32395077306f2f636f64696e672d667265616b2e676966">
+    python3 scripts/build_assets.py
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=faaiz09&label=Profile%20views&color=0e75b6&style=flat" alt="faaiz09" /> </p>
+No dependencies. Everything is SMIL inside self-contained SVG files, because
+GitHub renders SVGs referenced via <img> (with their animations) but strips
+scripts, external fonts and inline styles from the README itself.
+Edit THEMES / ROLES / STATIONS below and re-run.
+"""
+import math
+import os
+import random
 
-- 🌱 I’m currently learning **Laravel - PHP**
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "assets")
 
-- 📫 How to reach me **faaizakhtar@gmail.com**
+THEMES = {
+    "dark":  dict(bg="#0c0e12", ink="#ece7dc", mute="#8d8a82", accent="#ff6a3d", warm="#f2c14e"),
+    "light": dict(bg="#f4f0e6", ink="#15171a", mute="#6f6b62", accent="#d9481c", warm="#a87400"),
+}
+SERIF = "'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif"
+MONO = "ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace"
 
-- ⚡ Fun fact **Many developers have a strong preference for dark mode. It's said they believe it saves their eyesight – and their soul!**
+ROLES = [
+    "full-stack developer, founding team at Frog8",
+    "self-service kiosks for transit and banking",
+    "three.js, webgl and generative visuals",
+]
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/faaizakhtar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="faaizakhtar" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/fizzyness" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="fizzyness" height="30" width="40" /></a>
-<a href="https://kaggle.com/faaizakhtar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="faaizakhtar" height="30" width="40" /></a>                      <a href="https://instagram.com/fizzyness" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="fizzyness" height="30" width="40" /></a>
-</p>
+STATIONS = [  # place, line 1, line 2
+    ("Chennai",   "SRM IST, B.Tech",         "2017 to 2021"),
+    ("Boulder",   "CU Boulder, Master's",    "2021 to 2022"),
+    ("Mumbai",    "Technocrafts",            "2022 to 2025"),
+    ("Bengaluru", "Frog8, founding team",    "2025 to now"),
+]
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://canvasjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/Hardik0307/Hardik0307/master/assets/canvasjs-charts.svg" alt="canvasjs" width="40" height="40"/> </a> <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+SINE = ".37 0 .63 1"  # cubic-bezier that closely follows half a cosine wave
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=faaiz09&show_icons=true&locale=en&layout=compact" alt="faaiz09" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=faaiz09&" alt="faaiz09" /></p>
+def f(x):
+    s = f"{x:.1f}"
+    return s.rstrip("0").rstrip(".") if "." in s else s
+
+
+def cos_anim(attr, hi, lo, period, phase):
+    """Cosine wave between hi and lo. phase in turns = how far into the cycle we start."""
+    begin = -(phase % 1.0) * period
+    return (f'<animate attributeName="{attr}" values="{f(hi)};{f(lo)};{f(hi)}" keyTimes="0;.5;1" '
+            f'calcMode="spline" keySplines="{SINE};{SINE}" dur="{period}s" begin="{begin:.2f}s" '
+            f'repeatCount="indefinite"/>')
+
+
+def sphere(t, cx0, cy0, R=150, n=170, tilt_deg=22, period=30, seed=9):
+    """Fibonacci sphere of particles rotating about its vertical axis, seen from slightly above."""
+    rnd = random.Random(seed)
+    tilt = math.radians(tilt_deg)
+    golden = math.pi * (3 - math.sqrt(5))
+    out = []
+    for i in range(n):
+        y = 1 - 2 * (i + 0.5) / n               # sin(latitude)
+        a = R * math.sqrt(1 - y * y)            # radius of this latitude circle
+        th0 = (i * golden) % (2 * math.pi)      # starting longitude
+        yc = cy0 - R * y * math.cos(tilt)       # centre of the projected ellipse
+        b = a * math.sin(tilt)                  # its vertical radius
+        ph_x = th0 / (2 * math.pi)              # x follows cos(theta)
+        ph_y = ph_x - 0.25                      # y and depth follow sin(theta)
+        d = (math.sin(th0) + 1) / 2             # 0 = far side, 1 = near side
+        col = t["accent"] if rnd.random() < 0.16 else t["ink"]
+        out.append(
+            f'<circle cx="{f(cx0 + a * math.cos(th0))}" cy="{f(yc + b * math.sin(th0))}" '
+            f'r="{f(1.0 + 1.3 * d)}" fill="{col}" opacity="{0.12 + 0.83 * d:.2f}">'
+            + cos_anim("cx", cx0 + a, cx0 - a, period, ph_x)
+            + cos_anim("cy", yc + b, yc - b, period, ph_y)
+            + cos_anim("opacity", 0.95, 0.12, period, ph_y)
+            + cos_anim("r", 2.3, 1.0, period, ph_y)
+            + "</circle>")
+    return "\n".join(out)
+
+
+def header(t):
+    W, H = 1000, 380
+    cx, cy = 770, 192
+    roles = []
+    for i, line in enumerate(ROLES):
+        base = 1 if i == 0 else 0
+        roles.append(
+            f'<text x="58" y="250" font-family="{MONO}" font-size="19" fill="{t["mute"]}" opacity="{base}">{line}'
+            f'<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.04;.30;.34;1" dur="15s" '
+            f'begin="{i * 5}s" repeatCount="indefinite"/></text>')
+    rx = 208
+    ry = f(rx * math.sin(math.radians(22)))
+    nl = "\n"
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-labelledby="t d">
+<title id="t">Faaiz Akhtar</title>
+<desc id="d">Full-stack developer in Bengaluru. A slowly rotating sphere of particles sits beside the name.</desc>
+<defs>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="{t["accent"]}" stop-opacity=".20"/>
+    <stop offset="1" stop-color="{t["accent"]}" stop-opacity="0"/>
+  </radialGradient>
+  <path id="orbit" d="M {cx - rx} {cy} a {rx} {ry} 0 1 0 {2 * rx} 0 a {rx} {ry} 0 1 0 {-2 * rx} 0"/>
+</defs>
+<rect width="{W}" height="{H}" rx="20" fill="{t["bg"]}"/>
+<circle cx="{cx}" cy="{cy}" r="230" fill="url(#glow)"/>
+<use href="#orbit" fill="none" stroke="{t["mute"]}" stroke-opacity=".28" stroke-width="1" stroke-dasharray="2 7"/>
+{sphere(t, cx, cy)}
+<circle r="4" fill="{t["warm"]}"><animateMotion dur="11s" repeatCount="indefinite"><mpath href="#orbit"/></animateMotion></circle>
+<text x="58" y="104" font-family="{MONO}" font-size="16" fill="{t["accent"]}">github.com/faaiz09</text>
+<text x="54" y="196" font-family="{SERIF}" font-size="86" font-weight="600" letter-spacing="-2" fill="{t["ink"]}">Faaiz Akhtar</text>
+{nl.join(roles)}
+<text x="58" y="322" font-family="{MONO}" font-size="15" fill="{t["mute"]}">Bengaluru, India (UTC+5:30)</text>
+</svg>
+'''
+
+
+def journey(t):
+    W, H = 840, 230
+    y = 112
+    x0, x1 = 70, 770
+    n = len(STATIONS)
+    parts = []
+    for i, (place, l1, l2) in enumerate(STATIONS):
+        x = x0 + (x1 - x0) * i / (n - 1)
+        last = i == n - 1
+        anchor = "start" if i == 0 else ("end" if last else "middle")
+        tx = x - 12 if i == 0 else (x + 12 if last else x)
+        if last:
+            parts.append(
+                f'<circle cx="{f(x)}" cy="{y}" r="10" fill="none" stroke="{t["accent"]}" stroke-width="2">'
+                f'<animate attributeName="r" values="10;26" dur="2.4s" repeatCount="indefinite"/>'
+                f'<animate attributeName="opacity" values=".7;0" dur="2.4s" repeatCount="indefinite"/></circle>')
+        parts.append(
+            f'<circle cx="{f(x)}" cy="{y}" r="10" fill="{t["accent"] if last else t["bg"]}" '
+            f'stroke="{t["accent"] if last else t["ink"]}" stroke-width="3.5"/>')
+        parts.append(f'<text x="{f(tx)}" y="{y - 32}" text-anchor="{anchor}" font-family="{SERIF}" font-size="26" '
+                     f'font-weight="600" fill="{t["ink"]}">{place}</text>')
+        parts.append(f'<text x="{f(tx)}" y="{y + 44}" text-anchor="{anchor}" font-family="{MONO}" font-size="14" '
+                     f'fill="{t["ink"]}">{l1}</text>')
+        parts.append(f'<text x="{f(tx)}" y="{y + 66}" text-anchor="{anchor}" font-family="{MONO}" font-size="14" '
+                     f'fill="{t["mute"]}">{l2}</text>')
+    alt = "; ".join(f"{p}: {a}, {b}" for p, a, b in STATIONS)
+    nl = "\n"
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-labelledby="t d">
+<title id="t">Route so far</title>
+<desc id="d">{alt}</desc>
+<rect width="{W}" height="{H}" rx="18" fill="{t["bg"]}"/>
+<text x="58" y="36" font-family="{MONO}" font-size="14" fill="{t["accent"]}">route so far</text>
+<path id="line" d="M {x0} {y} H {x1}" stroke="{t["mute"]}" stroke-opacity=".55" stroke-width="5" stroke-linecap="round" fill="none"/>
+<rect x="-13" y="-5" width="26" height="10" rx="5" fill="{t["warm"]}" opacity="0">
+  <animateMotion dur="9s" repeatCount="indefinite" calcMode="spline" keyPoints="0;1;1" keyTimes="0;.8;1" keySplines=".45 0 .2 1;0 0 1 1"><mpath href="#line"/></animateMotion>
+  <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.06;.74;.8;1" dur="9s" repeatCount="indefinite"/>
+</rect>
+{nl.join(parts)}
+</svg>
+'''
+
+
+if __name__ == "__main__":
+    os.makedirs(OUT, exist_ok=True)
+    for name, theme in THEMES.items():
+        for kind, fn in (("header", header), ("journey", journey)):
+            p = os.path.normpath(os.path.join(OUT, f"{kind}-{name}.svg"))
+            with open(p, "w") as fh:
+                fh.write(fn(theme))
+            print(f"{p}  {os.path.getsize(p) / 1024:.0f} KB")
