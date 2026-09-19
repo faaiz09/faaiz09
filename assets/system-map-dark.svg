@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 330" width="840" height="330" role="img" aria-labelledby="t d">
+<title id="t">What I work across</title>
+<desc id="d">Surfaces: Kiosk UI, Web apps, Mobile apps, WhatsApp flows. Intelligence: OCR (Tesseract), RAG assistants, Bots and automation. Delivery: Docker, GCP (GKE), GitHub Actions</desc>
+<rect width="840" height="330" rx="18" fill="#0c0e12"/>
+<path id="w0" d="M240 104 C280 104 280 104 320 104" fill="none" stroke="#8d8a82" stroke-opacity=".22" stroke-width="1.2"/>
+<circle r="3" fill="#f2c14e"><animateMotion dur="3.9s" begin="-1.4s" repeatCount="indefinite"><mpath href="#w0"/></animateMotion></circle>
+<path id="w1" d="M240 104 C280 104 280 192 320 192" fill="none" stroke="#8d8a82" stroke-opacity=".22" stroke-width="1.2"/>
+<path id="w2" d="M240 104 C280 104 280 280 320 280" fill="none" stroke="#8d8a82" stroke-opacity=".22" stroke-width="1.2"/>
+<path id="w3" d="M240 162.7 C280 162.7 280 104 320 104" fill="none" stroke="#8d8a82" stroke-opacity=".22" stroke-width="1.2"/>
+<circle r="3" fill="#f2c14e"><animateMotion dur="2.6s" begin="-2.2s" repeatCount="indefinite"><mpath href="#w3"/></animateMotion></circle>
+<path id="w4" d="M240 162.7 C280 162.7 280 192 320 192" fill="none" stroke="#8d8a82" stroke-opacity=".22" stroke-width="1.2"/>
+<circle r="3" fill="#f2c14e"><animateMotion dur="3.2s" begin="-3.1s" repeatCount="indefinite"><mpath href="#w4"/></animateMotion></circle>
+<path id="w5" d="M240 162.7 C280 162.7 280 280 320 280" fill="none" stroke="#8d8a82" stroke-opacity=".22" stroke-width="1.2"/>
+<circle r="3" fill="#f2c14e"><animateMotion dur="4.6s" begin="-2.2s" repeatCount="indefinite"><mpath href="#w5"/></animateMotion></circle>
+<path id="w6" d="M240 221.3 C280 221.3 280 104 320 104" fill="none" stroke="#8d8a82" stroke-opacity=".22" stroke-width="1.2"/>
+<path id="w7" d="M240 221.3 C280 221.3 280 192 320 192" fill="none" stroke="#8d8a82" stroke-opacity=".22" stroke-width="1.2"/>
+<circle r="3" fill="#f2c14e"><animateMotion dur="4.1s" begin="-3.6s" repeatCount="indefinite"><mpath href="#w7"/></animateMotion></circle>
+<path id="w8" d="M240 221.3 C280 221.3 280 280 320 280" fill="none" stroke="#8d8a82" stroke-opacity=".22" stroke-width="1.2"/>
+<circle r="3" fill="#f2c14e"><animateMotion dur="4.4s" begin="-2.9s" repeatCount="indefinite"><mpath href="#w8"/></animateMotion></circle>
+<path id="w9" d="M240 280 C280 280 280 104 320 104" fill="none" stroke="#8d8a82" stroke-opacity=".22" stroke-width="1.2"/>
+<circle r="3" fill="#f2c14e"><animateMotion dur="4.4s" begin="-2.6s" repeatCount="indefinite"><mpath href="#w9"/></animateMotion></circle>
+<path id="w10" d="M240 280 C280 280 280 192 320 192" fill="none" stroke="#8d8a82" stroke-opacity=".22" stroke-width="1.2"/>
+<circle r="3" fill="#f2c14e"><animateMotion dur="2.7s" begin="-2.3s" repeatCount="indefinite"><mpath href="#w10"/></animateMotion></circle>
+<path id="w11" d="M240 280 C280 280 280 280 320 280" fill="none" stroke="#8d8a82" stroke-opacity=".22" stroke-width="1.2"/>
+<circle r="3" fill="#f2c14e"><animateMotion dur="4.3s" begin="-3.8s" repeatCount="indefinite"><mpath href="#w11"/></animateMotion></circle>
+<path id="w12" d="M520 104 C560 104 560 104 600 104" fill="none" stroke="#8d8a82" stroke-opacity=".22" stroke-width="1.2"/>
+<path id="w13" d="M520 104 C560 104 560 192 600 192" fill="none" stroke="#8d8a82" stroke-opacity=".22" stroke-width="1.2"/>
+<path id="w14" d="M520 104 C560 104 560 280 600 280" fill="none" stroke="#8d8a82" stroke-opacity=".22" stroke-width="1.2"/>
+<circle r="3" fill="#f2c14e"><animateMotion dur="4.5s" begin="-2.0s" repeatCount="indefinite"><mpath href="#w14"/></animateMotion></circle>
+<path id="w15" d="M520 192 C560 192 560 104 600 104" fill="none" stroke="#8d8a82" stroke-opacity=".22" stroke-width="1.2"/>
+<path id="w16" d="M520 192 C560 192 560 192 600 192" fill="none" stroke="#8d8a82" stroke-opacity=".22" stroke-width="1.2"/>
+<path id="w17" d="M520 192 C560 192 560 280 600 280" fill="none" stroke="#8d8a82" stroke-opacity=".22" stroke-width="1.2"/>
+<circle r="3" fill="#f2c14e"><animateMotion dur="2.9s" begin="-0.6s" repeatCount="indefinite"><mpath href="#w17"/></animateMotion></circle>
+<path id="w18" d="M520 280 C560 280 560 104 600 104" fill="none" stroke="#8d8a82" stroke-opacity=".22" stroke-width="1.2"/>
+<path id="w19" d="M520 280 C560 280 560 192 600 192" fill="none" stroke="#8d8a82" stroke-opacity=".22" stroke-width="1.2"/>
+<circle r="3" fill="#f2c14e"><animateMotion dur="4.1s" begin="-1.2s" repeatCount="indefinite"><mpath href="#w19"/></animateMotion></circle>
+<path id="w20" d="M520 280 C560 280 560 280 600 280" fill="none" stroke="#8d8a82" stroke-opacity=".22" stroke-width="1.2"/>
+<circle r="3" fill="#f2c14e"><animateMotion dur="3.5s" begin="-1.2s" repeatCount="indefinite"><mpath href="#w20"/></animateMotion></circle>
+<text x="40" y="58" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif" font-size="22" font-weight="600" fill="#ece7dc">Surfaces</text>
+<rect x="40" y="84" width="200" height="40" rx="9" fill="#171b22" stroke="#8d8a82" stroke-opacity=".45"/><circle cx="58" cy="104" r="4" fill="#ff6a3d"><animate attributeName="opacity" values="1;.25;1" dur="2.6s" begin="0.00s" repeatCount="indefinite"/></circle><text x="74" y="109" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#ece7dc">Kiosk UI</text>
+<rect x="40" y="142.7" width="200" height="40" rx="9" fill="#171b22" stroke="#8d8a82" stroke-opacity=".45"/><circle cx="58" cy="162.7" r="4" fill="#ff6a3d"><animate attributeName="opacity" values="1;.25;1" dur="2.6s" begin="0.37s" repeatCount="indefinite"/></circle><text x="74" y="167.7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#ece7dc">Web apps</text>
+<rect x="40" y="201.3" width="200" height="40" rx="9" fill="#171b22" stroke="#8d8a82" stroke-opacity=".45"/><circle cx="58" cy="221.3" r="4" fill="#ff6a3d"><animate attributeName="opacity" values="1;.25;1" dur="2.6s" begin="0.74s" repeatCount="indefinite"/></circle><text x="74" y="226.3" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#ece7dc">Mobile apps</text>
+<rect x="40" y="260" width="200" height="40" rx="9" fill="#171b22" stroke="#8d8a82" stroke-opacity=".45"/><circle cx="58" cy="280" r="4" fill="#ff6a3d"><animate attributeName="opacity" values="1;.25;1" dur="2.6s" begin="1.11s" repeatCount="indefinite"/></circle><text x="74" y="285" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#ece7dc">WhatsApp flows</text>
+<text x="320" y="58" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif" font-size="22" font-weight="600" fill="#ece7dc">Intelligence</text>
+<rect x="320" y="84" width="200" height="40" rx="9" fill="#171b22" stroke="#8d8a82" stroke-opacity=".45"/><circle cx="338" cy="104" r="4" fill="#ff6a3d"><animate attributeName="opacity" values="1;.25;1" dur="2.6s" begin="1.11s" repeatCount="indefinite"/></circle><text x="354" y="109" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#ece7dc">OCR (Tesseract)</text>
+<rect x="320" y="172" width="200" height="40" rx="9" fill="#171b22" stroke="#8d8a82" stroke-opacity=".45"/><circle cx="338" cy="192" r="4" fill="#ff6a3d"><animate attributeName="opacity" values="1;.25;1" dur="2.6s" begin="1.48s" repeatCount="indefinite"/></circle><text x="354" y="197" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#ece7dc">RAG assistants</text>
+<rect x="320" y="260" width="200" height="40" rx="9" fill="#171b22" stroke="#8d8a82" stroke-opacity=".45"/><circle cx="338" cy="280" r="4" fill="#ff6a3d"><animate attributeName="opacity" values="1;.25;1" dur="2.6s" begin="1.85s" repeatCount="indefinite"/></circle><text x="354" y="285" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#ece7dc">Bots and automation</text>
+<text x="600" y="58" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif" font-size="22" font-weight="600" fill="#ece7dc">Delivery</text>
+<rect x="600" y="84" width="200" height="40" rx="9" fill="#171b22" stroke="#8d8a82" stroke-opacity=".45"/><circle cx="618" cy="104" r="4" fill="#ff6a3d"><animate attributeName="opacity" values="1;.25;1" dur="2.6s" begin="2.22s" repeatCount="indefinite"/></circle><text x="634" y="109" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#ece7dc">Docker</text>
+<rect x="600" y="172" width="200" height="40" rx="9" fill="#171b22" stroke="#8d8a82" stroke-opacity=".45"/><circle cx="618" cy="192" r="4" fill="#ff6a3d"><animate attributeName="opacity" values="1;.25;1" dur="2.6s" begin="2.59s" repeatCount="indefinite"/></circle><text x="634" y="197" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#ece7dc">GCP (GKE)</text>
+<rect x="600" y="260" width="200" height="40" rx="9" fill="#171b22" stroke="#8d8a82" stroke-opacity=".45"/><circle cx="618" cy="280" r="4" fill="#ff6a3d"><animate attributeName="opacity" values="1;.25;1" dur="2.6s" begin="2.96s" repeatCount="indefinite"/></circle><text x="634" y="285" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#ece7dc">GitHub Actions</text>
+</svg>

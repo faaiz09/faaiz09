@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" width="1000" height="380" role="img" aria-labelledby="t d">
 <title id="t">Faaiz Akhtar</title>
-<desc id="d">Full-stack developer in Bengaluru. A slowly rotating sphere of particles sits beside the name.</desc>
+<desc id="d">Full-stack developer and Founding Member at Frog8, Bengaluru. A slowly rotating sphere of particles sits beside the name.</desc>
 <defs>
   <radialGradient id="glow" cx="50%" cy="50%" r="50%">
     <stop offset="0" stop-color="#d9481c" stop-opacity=".20"/>
@@ -184,8 +184,8 @@
 <circle r="4" fill="#a87400"><animateMotion dur="11s" repeatCount="indefinite"><mpath href="#orbit"/></animateMotion></circle>
 <text x="58" y="104" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="16" fill="#d9481c">github.com/faaiz09</text>
 <text x="54" y="196" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif" font-size="86" font-weight="600" letter-spacing="-2" fill="#15171a">Faaiz Akhtar</text>
-<text x="58" y="250" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="19" fill="#6f6b62" opacity="1">full-stack developer, founding team at Frog8<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.04;.30;.34;1" dur="15s" begin="0s" repeatCount="indefinite"/></text>
-<text x="58" y="250" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="19" fill="#6f6b62" opacity="0">self-service kiosks for transit and banking<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.04;.30;.34;1" dur="15s" begin="5s" repeatCount="indefinite"/></text>
-<text x="58" y="250" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="19" fill="#6f6b62" opacity="0">three.js, webgl and generative visuals<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.04;.30;.34;1" dur="15s" begin="10s" repeatCount="indefinite"/></text>
+<text x="58" y="250" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="18" fill="#6f6b62" opacity="1">Full-stack developer and Founding Member at Frog8<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.04;.30;.34;1" dur="15s" begin="0s" repeatCount="indefinite"/></text>
+<text x="58" y="250" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="18" fill="#6f6b62" opacity="0">Kiosk, web and mobile systems for banking and transit<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.04;.30;.34;1" dur="15s" begin="5s" repeatCount="indefinite"/></text>
+<text x="58" y="250" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="18" fill="#6f6b62" opacity="0">OCR, RAG and automation, with Three.js on the side<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.04;.30;.34;1" dur="15s" begin="10s" repeatCount="indefinite"/></text>
 <text x="58" y="322" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#6f6b62">Bengaluru, India (UTC+5:30)</text>
 </svg>
