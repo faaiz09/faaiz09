@@ -12,15 +12,6 @@ I'm Faaiz, though most people call me Fizzy. I build the parts of software peopl
   <img src="./assets/journey-dark.svg" width="100%" alt="Route so far. Chennai: SRM IST, B.Tech, 2017 to 2021. Boulder: CU Boulder, Master's, 2021 to 2022. Mumbai: Technocrafts, 2022 to 2025. Bengaluru: Frog8, founding team, 2025 to now.">
 </picture>
 
-### Work you can open
-
-| | |
-|---|---|
-| [LetsGoa_Demo](https://github.com/faaiz09/LetsGoa_Demo) | Kiosk simulator for Goa tourism bookings. TypeScript. |
-| [frog8-transit-fintech](https://github.com/faaiz09/frog8-transit-fintech) | Frog8's transit fintech front end. TypeScript. |
-| [veriphy_updated](https://github.com/faaiz09/veriphy_updated) | Veriphy 2.0, a verification and case management app. Dart. |
-| [faaiz_portfolio](https://github.com/faaiz09/faaiz_portfolio) | Personal portfolio. TypeScript. |
-
 ### What I reach for
 
 **Interface** &nbsp; React, Next.js, TypeScript, Tailwind CSS, Sass  
