@@ -25,7 +25,7 @@ MONO = "ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace"
 ROLES = [
     "Full-stack developer and Founding Member at Frog8",
     "Kiosk, web and mobile systems for banking and transit",
-    "OCR, RAG and automation, with Three.js on the side",
+    "Full stack by trade, front end by preference",
 ]
 
 STATIONS = [  # place, line 1, line 2
@@ -48,7 +48,7 @@ SYSTEM_MAP = [  # column title, nodes
     ("Delivery",     ["Docker", "GCP (GKE)", "GitHub Actions"]),
 ]
 
-TOOLBOX = ["Tesseract OCR", "RAG pipelines", "OpenAI API", "Twilio", "WhatsApp Business API", "MCP automations",
+TOOLBOX = ["React Native", "Tesseract OCR", "RAG pipelines", "OpenAI API", "Twilio", "WhatsApp Business API", "MCP automations",
            "Framer Motion", "SSMS", "Grafana", "CI/CD"]
 
 SINE = ".37 0 .63 1"  # cubic-bezier that closely follows half a cosine wave
@@ -189,8 +189,8 @@ def qr(x, y, cell, fill, n=9, seed=4):
     return f'<g fill="{fill}">' + "".join(out) + "</g>"
 
 
-def kiosk(t):
-    """A ticketing kiosk running through three screens: choose, pay, collect."""
+def kiosk_inner(t):
+    """The kiosk drawing itself (no <svg> wrapper): three screens, then a ticket slides out."""
     W, H, D = 360, 450, "10s"
     S = SCREEN
 
@@ -226,8 +226,7 @@ def kiosk(t):
            + "".join(f'<text x="190" y="{124 + 18 * k}" font-family="{MONO}" font-size="12" fill="{S["mute"]}">{w}</text>'
                      for k, w in enumerate(("Collect", "your", "ticket")))
            + f'<path d="M190 178 l7 7 l14 -16" fill="none" stroke="{S["accent"]}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>')
-    return f'''{svg_open(W, H, "Ticketing kiosk", "An illustrated self-service kiosk cycling through three screens: choose a ticket, pay by UPI, card or cash, then collect the printed ticket.")}
-<defs><clipPath id="slot"><rect x="0" y="366" width="{W}" height="90"/></clipPath></defs>
+    return f'''<defs><clipPath id="slot"><rect x="0" y="366" width="{W}" height="90"/></clipPath></defs>
 <ellipse cx="180" cy="438" rx="128" ry="8" fill="{t["ink"]}" opacity=".10"/>
 <rect x="66" y="16" width="228" height="418" rx="20" fill="{t["panel"]}" stroke="{t["mute"]}" stroke-opacity=".45" stroke-width="1.5"/>
 <circle cx="180" cy="28" r="2.5" fill="{t["mute"]}"/>
@@ -255,6 +254,31 @@ def kiosk(t):
   </g>
 </g>
 <rect x="120" y="354" width="120" height="12" rx="6" fill="{S["bg"]}"/>
+'''
+
+
+def kiosk_strip(t):
+    """Full-width banner: the kiosk on the left, the three steps on the right, highlighted in sync."""
+    W, H, D = 840, 320, "10s"
+    steps = [("Choose", "QR ticket or metro card recharge", "1;1;.45;.45;1", "0;.30;.33;.96;1"),
+             ("Pay", "UPI, card or cash", ".45;.45;1;1;.45;.45", "0;.30;.33;.60;.63;1"),
+             ("Collect", "A printed QR ticket, ready to scan", ".45;.45;1;1;.45;.45", "0;.60;.63;.92;.95;1")]
+    rows = []
+    for i, (title, text, vals, kts) in enumerate(steps):
+        y = 112 + i * 70
+        rows.append(
+            f'<g opacity="{1 if i == 0 else .45}">'
+            f'<circle cx="352" cy="{y - 8}" r="17" fill="none" stroke="{t["accent"]}" stroke-width="2"/>'
+            f'<text x="352" y="{y - 2}" text-anchor="middle" font-family="{MONO}" font-size="16" fill="{t["accent"]}">{i + 1}</text>'
+            f'<text x="388" y="{y - 6}" font-family="{SERIF}" font-size="25" font-weight="600" fill="{t["ink"]}">{title}</text>'
+            f'<text x="388" y="{y + 16}" font-family="{MONO}" font-size="14" fill="{t["mute"]}">{text}</text>'
+            f'<animate attributeName="opacity" values="{vals}" keyTimes="{kts}" dur="{D}" repeatCount="indefinite"/></g>')
+    nl = "\n"
+    return f'''{svg_open(W, H, "A metro ticket, start to finish", "An illustrated self-service kiosk cycles through three steps. 1, Choose: QR ticket or metro card recharge. 2, Pay: UPI, card or cash. 3, Collect: a printed QR ticket, ready to scan.")}
+<rect width="{W}" height="{H}" rx="18" fill="{t["bg"]}"/>
+<g transform="translate(34 14) scale(.65)">{kiosk_inner(t)}</g>
+<text x="335" y="52" font-family="{MONO}" font-size="14" fill="{t["accent"]}">The kind of flow I build: a metro ticket, start to finish</text>
+{nl.join(rows)}
 </svg>
 '''
 
@@ -375,7 +399,7 @@ def toolbox(t):
 
 if __name__ == "__main__":
     os.makedirs(OUT, exist_ok=True)
-    kinds = (("header", header), ("journey", journey), ("kiosk", kiosk), ("terminal", terminal),
+    kinds = (("header", header), ("journey", journey), ("kiosk-strip", kiosk_strip), ("terminal", terminal),
              ("system-map", system_map), ("toolbox", toolbox))
     for name, theme in THEMES.items():
         for kind, fn in kinds:

@@ -6,23 +6,23 @@
 
 <p align="right"><img src="https://komarev.com/ghpvc/?username=faaiz09&label=Profile%20views&color=d9481c&style=flat" alt="Profile views"></p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/kiosk-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/kiosk-light.svg">
-  <img align="right" width="270" src="./assets/kiosk-dark.svg" alt="An illustrated ticketing kiosk cycling through three screens: choose a ticket, pay, collect.">
-</picture>
-
 ## About me
 
 I am a full-stack software developer and a Founding Member of [Frog8 Technology Services](https://frog8.co.in) in Bengaluru. I build product-grade web, mobile and kiosk systems for banking, fintech and enterprise customers.
 
-Most of my work ends up in front of people who are in a hurry: a commuter buying a QR ticket at a metro station, a bank customer updating a passbook, or a field officer marking attendance from a phone. That has shaped how I work. I care about interfaces that are obvious at first glance, flows that recover gracefully when the network or the hardware does not cooperate, and code that the next engineer can pick up without a walkthrough.
+I work across the whole stack, from the database and APIs to deployment, and the front end is the part I enjoy most. Much of what I build is used by people in a hurry: a commuter buying a QR ticket at a metro station, a bank customer updating a passbook, or a field officer marking attendance on a phone. That has shaped how I work. I care about interfaces that are clear at first glance, flows that recover gracefully when the network or the hardware fails, and code that the next engineer can pick up without a walkthrough.
 
-I am comfortable across the stack. On the front end I work with React, Next.js and TypeScript; on mobile with Flutter, React Native and native Android (Java and Kotlin); on the back end with Python, Flask, Django and C#. Around that I build the automation that keeps products running: OCR pipelines with Tesseract, retrieval-augmented (RAG) assistants, messaging bots, and CI/CD to Google Cloud.
+On the front end, I work with React, Next.js and TypeScript. On mobile, I use Flutter, React Native and native Android (Java and Kotlin). On the back end, I use Python, Flask, Django and C#. Around these, I build the automation that keeps products running: OCR pipelines with Tesseract, retrieval-augmented generation (RAG) assistants, messaging bots, and CI/CD pipelines to Google Cloud.
 
 Outside client work, I enjoy real-time graphics and generative visuals with Three.js.
 
-<br clear="right">
+**How I work:** leadership, ownership, collaboration, problem solving and clear communication.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/kiosk-strip-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/kiosk-strip-light.svg">
+  <img src="./assets/kiosk-strip-dark.svg" width="100%" alt="A metro ticket, start to finish. An illustrated kiosk cycles through three steps: choose a QR ticket or a card recharge; pay by UPI, card or cash; collect a printed QR ticket.">
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/terminal-dark.svg">
@@ -33,13 +33,13 @@ Outside client work, I enjoy real-time graphics and generative visuals with Thre
 ## Experience
 
 <details open>
-<summary><b>Frog8 Technology Services Pvt. Ltd.</b> · Founding Member, Software Developer · April 2025 to present · Bengaluru</summary>
+<summary><b>Frog8 Technology Services Pvt. Ltd.</b> · Founding Member and Software Developer · April 2025 to present · Bengaluru</summary>
 <br>
 
-- **BMRCL TVM 2000.** Delivered the end-to-end kiosk interface for QR ticketing and metro card recharge, with UPI, card and cash payments.
-- **Frog8 investor-facing website.** Led the build in React, Next.js, TypeScript and Tailwind CSS, including the design system, responsive layouts, animations, and OTP and QR sign-in integrations.
+- **BMRCL TVM 2000.** I delivered the end-to-end kiosk interface for QR ticketing and metro card recharge, with UPI, card and cash payments.
+- **Frog8 investor-facing website.** I led the build in React, Next.js, TypeScript and Tailwind CSS, including the design system, responsive layouts, animations, and OTP and QR sign-in integrations.
 - **Veriphy.** A WhatsApp-native onboarding product: QR deep links lead into WhatsApp, followed by KYC and the full document lifecycle, with OTP verification and audit trails.
-- **RM Manager.** A field operations app in Flutter and Android covering geo-attendance, shift tracking, device assignment, WhatsApp escalations and leaderboards.
+- **RM Manager.** A field operations app built with Flutter and Android, covering geo-attendance, shift tracking, device assignment, WhatsApp escalations and leaderboards.
 - **AI and automation.** Python and MCP automations (Twilio bots and scheduled pings), RAG-based in-app assistants, and CI/CD to GCP (GKE).
 
 </details>
@@ -48,8 +48,8 @@ Outside client work, I enjoy real-time graphics and generative visuals with Thre
 <summary><b>Technocrafts Switchgear Pvt. Ltd.</b> · Software Engineer · November 2022 to March 2025 · Mumbai</summary>
 <br>
 
-- Built the Central Management and Monitoring System (CMMS) for passbook kiosks deployed with ICICI, Canara, Axis and HDFC.
-- Developed a quality-control Android app (React Native, C# and MySQL) and an OCR cheque reader (Python and Tesseract).
+- I built the Central Management and Monitoring System (CMMS) for passbook kiosks deployed with ICICI, Canara, Axis and HDFC.
+- I developed a quality-control Android app (React Native, C# and MySQL) and an OCR cheque reader (Python and Tesseract).
 
 </details>
 
@@ -57,36 +57,36 @@ Outside client work, I enjoy real-time graphics and generative visuals with Thre
 <summary><b>Forbes Technosys Ltd. (Shapoorji Pallonji)</b> · Software Engineer Intern · May 2019 to July 2019</summary>
 <br>
 
-- Consolidated back-end servers for 16 subsidiaries, implemented an SSO migration, and built responsive Angular interfaces with lazy loading.
+- I consolidated back-end servers for 16 subsidiaries, implemented an SSO migration, and built responsive Angular interfaces with lazy loading.
 
 </details>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/journey-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/journey-light.svg">
-  <img src="./assets/journey-dark.svg" width="100%" alt="Route so far. Chennai: SRM IST, B.Tech in Computer Science, 2017 to 2021. Mumbai: Technocrafts Switchgear, 2022 to 2025. Bengaluru: Frog8, Founding Member, 2025 to present.">
+  <img src="./assets/journey-dark.svg" width="100%" alt="Route so far. Chennai: SRM IST, B.Tech in Computer Science and Engineering, 2017 to 2021. Mumbai: Technocrafts Switchgear, 2022 to 2025. Bengaluru: Frog8, Founding Member, 2025 to present.">
 </picture>
 
 ## Selected projects
 
-| Project | What it is |
+| Project | Description |
 |---|---|
-| **Caxman Store** ([caxmaneyewear.com](https://caxmaneyewear.com)) | Client storefront in React, Next.js and Tailwind CSS: product catalogue, SEO metadata, image optimisation, and WhatsApp and DM order flows. |
-| **IntelliKiosk** | A reference kiosk platform for QR and UPI ticketing with on-device OCR, offline failover, OTA updates and telemetry. |
-| **FinFlow** | WhatsApp Business API and Twilio OTP onboarding with a RAG-backed compliance FAQ, secure KYC capture and document verification. |
-| **DocuSense RAG** | A RAG pipeline with multimodal (image to text) support, an embeddings store, retriever fusion, and an interface that cites its sources. |
-| **OCR+** | A document OCR and layout analyser: advanced preprocessing, custom Tesseract training, layout-aware post-processing and an accuracy dashboard. |
-| **OpsSight** | A Flutter and Android app with Grafana dashboards for geofenced attendance, shift orchestration and offline-first sync. |
+| **Caxman Store** ([caxmaneyewear.com](https://caxmaneyewear.com)) | A client storefront built with React, Next.js and Tailwind CSS, with a product catalogue, SEO metadata, image optimisation, and WhatsApp and direct-message order flows. |
+| **IntelliKiosk** | A reference kiosk platform for QR and UPI ticketing, with on-device OCR, offline failover, over-the-air updates and telemetry. |
+| **FinFlow** | WhatsApp-native onboarding using the WhatsApp Business API and Twilio OTP, with a RAG-backed compliance FAQ, secure KYC capture and document verification. |
+| **DocuSense RAG** | A document assistant built on a RAG pipeline with multimodal (image-to-text) support, an embeddings store, retriever fusion, and an interface that cites its sources. |
+| **OCR+** | A document OCR and layout analyser with advanced preprocessing, custom Tesseract training, layout-aware post-processing and a dashboard for monitoring accuracy. |
+| **OpsSight** | A Flutter and Android app with Grafana dashboards for geofenced attendance, shift orchestration, offline-first sync and adaptive telemetry. |
 
 **Public repositories:** [LetsGoa_Demo](https://github.com/faaiz09/LetsGoa_Demo) · [frog8-transit-fintech](https://github.com/faaiz09/frog8-transit-fintech) · [veriphy_updated](https://github.com/faaiz09/veriphy_updated) · [faaiz_portfolio](https://github.com/faaiz09/faaiz_portfolio)
 
 ## Publication
 
-**Enhanced Haze Removal System**, Springer ICMETE 2021 (published February 2022). I designed a haze-removal algorithm based on the Dark Channel Prior and invariant features; the paper was accepted at the international conference.
+**Enhanced Haze Removal System**, Springer ICMETE 2021 (published February 2022). I designed a haze-removal algorithm based on the Dark Channel Prior and invariant features. The paper was accepted at the international conference.
 
 ## Education
 
-**B.Tech. in Computer Science and Engineering**, SRM Institute of Science and Technology, Chennai (2017 to 2021), 85%.
+**B.Tech. in Computer Science and Engineering**, SRM Institute of Science and Technology, Chennai, 2017 to 2021. I graduated with 85%.
 
 ## What I work across
 
@@ -96,29 +96,22 @@ Outside client work, I enjoy real-time graphics and generative visuals with Thre
   <img src="./assets/system-map-dark.svg" width="100%" alt="Surfaces: kiosk UI, web apps, mobile apps, WhatsApp flows. Intelligence: OCR with Tesseract, RAG assistants, bots and automation. Delivery: Docker, GCP (GKE), GitHub Actions.">
 </picture>
 
-## Languages and tools
+## Skills
 
-<p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,nextjs,ts,js,vue,nuxtjs,angular,astro,vite,tailwind,sass,threejs&perline=12&theme=dark">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,vue,nuxtjs,angular,astro,vite,tailwind,sass,threejs&perline=12&theme=light" alt="React, Next.js, TypeScript, JavaScript, Vue, Nuxt, Angular, Astro, Vite, Tailwind CSS, Sass, Three.js">
-</picture>
-<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=flutter,dart,androidstudio,kotlin,java,py,flask,django,cs,cpp,nodejs,mysql&perline=12&theme=dark">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio,kotlin,java,py,flask,django,cs,cpp,nodejs,mysql&perline=12&theme=light" alt="Flutter, Dart, Android, Kotlin, Java, Python, Flask, Django, C#, C++, Node.js, MySQL">
-</picture>
-<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=docker,gcp,kubernetes,githubactions,firebase,linux,git,postman,opencv,tensorflow,pytorch,blender&perline=12&theme=dark">
-  <img src="https://skillicons.dev/icons?i=docker,gcp,kubernetes,githubactions,firebase,linux,git,postman,opencv,tensorflow,pytorch,blender&perline=12&theme=light" alt="Docker, Google Cloud, Kubernetes, GitHub Actions, Firebase, Linux, Git, Postman, OpenCV, TensorFlow, PyTorch, Blender">
-</picture>
-</p>
+| Area | Tools |
+|---|---|
+| **Front end** | <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,nextjs,ts,js,vue,nuxtjs,angular,astro,vite,tailwind,threejs&perline=12&theme=dark"><img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,vue,nuxtjs,angular,astro,vite,tailwind,threejs&perline=12&theme=light" height="40" alt="React, Next.js, TypeScript, JavaScript, Vue, Nuxt, Angular, Astro, Vite, Tailwind CSS, Framer Motion, Three.js"></picture><br>React, Next.js, TypeScript, JavaScript, Vue, Nuxt, Angular, Astro, Vite, Tailwind CSS, Framer Motion, Three.js |
+| **Mobile and kiosk** | <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=flutter,dart,androidstudio,java,kotlin&perline=12&theme=dark"><img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio,java,kotlin&perline=12&theme=light" height="40" alt="React Native, Flutter, Dart, Android (Java and Kotlin)"></picture><br>React Native, Flutter, Dart, Android (Java and Kotlin) |
+| **Back end** | <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,flask,django,cs,cpp&perline=12&theme=dark"><img src="https://skillicons.dev/icons?i=py,flask,django,cs,cpp&perline=12&theme=light" height="40" alt="Python, Flask, Django, C#, C++"></picture><br>Python, Flask, Django, C#, C++ |
+| **Data** | <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=mysql&perline=12&theme=dark"><img src="https://skillicons.dev/icons?i=mysql&perline=12&theme=light" height="40" alt="MySQL, SQL Server Management Studio (SSMS)"></picture><br>MySQL, SQL Server Management Studio (SSMS) |
+| **AI and automation** | OCR (Tesseract), retrieval-augmented generation (RAG), OpenAI API |
+| **Cloud and DevOps** | <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=docker,gcp,kubernetes,githubactions&perline=12&theme=dark"><img src="https://skillicons.dev/icons?i=docker,gcp,kubernetes,githubactions&perline=12&theme=light" height="40" alt="Docker, Google Cloud (GKE), CI/CD with GitHub Actions"></picture><br>Docker, Google Cloud (GKE), CI/CD with GitHub Actions |
+| **Also worked with** | <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs,firebase,linux,git,postman,opencv,tensorflow,pytorch,blender,arduino,bootstrap,sass&perline=12&theme=dark"><img src="https://skillicons.dev/icons?i=nodejs,firebase,linux,git,postman,opencv,tensorflow,pytorch,blender,arduino,bootstrap,sass&perline=12&theme=light" height="40" alt="Node.js, Firebase, Linux, Git, Postman, OpenCV, TensorFlow, PyTorch, Blender, Arduino, Bootstrap, Sass"></picture><br>Node.js, Firebase, Linux, Git, Postman, OpenCV, TensorFlow, PyTorch, Blender, Arduino, Bootstrap, Sass |
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/toolbox-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/toolbox-light.svg">
-  <img src="./assets/toolbox-dark.svg" width="100%" alt="Also in the toolbox: Tesseract OCR, RAG pipelines, OpenAI API, Twilio, WhatsApp Business API, MCP automations, Framer Motion, SSMS, Grafana, CI/CD.">
+  <img src="./assets/toolbox-dark.svg" width="100%" alt="Also in the toolbox: React Native, Tesseract OCR, RAG pipelines, OpenAI API, Twilio, WhatsApp Business API, MCP automations, Framer Motion, SSMS, Grafana, CI/CD.">
 </picture>
 
 🌱 **Currently learning:** Laravel and PHP.
@@ -144,7 +137,7 @@ Outside client work, I enjoy real-time graphics and generative visuals with Thre
 </picture>
 
 <details>
-<summary>The same graph, as a game of Snake</summary>
+<summary>The same graph as a game of Snake</summary>
 <br>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/faaiz09/faaiz09/output/github-contribution-grid-snake-dark.svg">
@@ -155,16 +148,14 @@ Outside client work, I enjoy real-time graphics and generative visuals with Thre
 
 ## A fun fact
 
-<img align="right" width="230" src="https://images.squarespace-cdn.com/content/v1/5769fc401b631bab1addb2ab/1541580611624-TE64QGKRJG8SWAIUS7NS/ke17ZwdGBToddI8pDm48kPoswlzjSVMM-SxOp7CV59BZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PI6FXy8c9PWtBlqAVlUS5izpdcIXDZqDYvprRqZ29Pw0o/coding-freak.gif" alt="An animated illustration of a developer at a desk">
-
 > [!TIP]
-> Many developers have a strong preference for dark mode. It is said to save their eyesight, and possibly their soul. This page follows your GitHub theme, so you may choose for yourself.
+> Many developers strongly prefer dark mode. They say it saves their eyesight, and possibly their soul. This page follows your GitHub theme, so the choice is yours.
 
-<br clear="right">
+<p align="center"><img width="260" src="https://images.squarespace-cdn.com/content/v1/5769fc401b631bab1addb2ab/1541580611624-TE64QGKRJG8SWAIUS7NS/ke17ZwdGBToddI8pDm48kPoswlzjSVMM-SxOp7CV59BZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PI6FXy8c9PWtBlqAVlUS5izpdcIXDZqDYvprRqZ29Pw0o/coding-freak.gif" alt="An animated illustration of a developer at a desk"></p>
 
 ## Get in touch
 
-I am open to full-time and contract roles, and I am happy to work hybrid or remote.
+I am open to full-time and contract roles, and I am happy to relocate or to work in a hybrid or remote arrangement.
 
 <p>
 <a href="https://linkedin.com/in/faaizakhtar"><img src="https://skillicons.dev/icons?i=linkedin" width="44" alt="LinkedIn"></a>&nbsp;
@@ -177,4 +168,4 @@ I am open to full-time and contract roles, and I am happy to work hybrid or remo
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff6a3d,100:f2c14e&height=110&section=footer" width="100%" alt="">
 
-<sub>The header, kiosk, terminal, route map, system map, toolbox and stats card are SVGs generated by <a href="./scripts/build_assets.py">a small Python script</a> in this repository: no JavaScript, and they follow your light or dark theme.</sub>
+<sub>The header, kiosk banner, terminal, route map, system map, toolbox and stats card are SVGs generated by <a href="./scripts/build_assets.py">Python scripts</a> in this repository. They use no JavaScript and follow your light or dark theme.</sub>
