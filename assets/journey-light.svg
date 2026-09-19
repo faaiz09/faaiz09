@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 230" width="840" height="230" role="img" aria-labelledby="t d">
+<title id="t">Route so far</title>
+<desc id="d">Chennai: SRM IST, B.Tech, 2017 to 2021; Boulder: CU Boulder, Master's, 2021 to 2022; Mumbai: Technocrafts, 2022 to 2025; Bengaluru: Frog8, founding team, 2025 to now</desc>
+<rect width="840" height="230" rx="18" fill="#f4f0e6"/>
+<text x="58" y="36" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#d9481c">route so far</text>
+<path id="line" d="M 70 112 H 770" stroke="#6f6b62" stroke-opacity=".55" stroke-width="5" stroke-linecap="round" fill="none"/>
+<rect x="-13" y="-5" width="26" height="10" rx="5" fill="#a87400" opacity="0">
+  <animateMotion dur="9s" repeatCount="indefinite" calcMode="spline" keyPoints="0;1;1" keyTimes="0;.8;1" keySplines=".45 0 .2 1;0 0 1 1"><mpath href="#line"/></animateMotion>
+  <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.06;.74;.8;1" dur="9s" repeatCount="indefinite"/>
+</rect>
+<circle cx="70" cy="112" r="10" fill="#f4f0e6" stroke="#15171a" stroke-width="3.5"/>
+<text x="58" y="80" text-anchor="start" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif" font-size="26" font-weight="600" fill="#15171a">Chennai</text>
+<text x="58" y="156" text-anchor="start" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#15171a">SRM IST, B.Tech</text>
+<text x="58" y="178" text-anchor="start" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#6f6b62">2017 to 2021</text>
+<circle cx="303.3" cy="112" r="10" fill="#f4f0e6" stroke="#15171a" stroke-width="3.5"/>
+<text x="303.3" y="80" text-anchor="middle" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif" font-size="26" font-weight="600" fill="#15171a">Boulder</text>
+<text x="303.3" y="156" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#15171a">CU Boulder, Master's</text>
+<text x="303.3" y="178" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#6f6b62">2021 to 2022</text>
+<circle cx="536.7" cy="112" r="10" fill="#f4f0e6" stroke="#15171a" stroke-width="3.5"/>
+<text x="536.7" y="80" text-anchor="middle" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif" font-size="26" font-weight="600" fill="#15171a">Mumbai</text>
+<text x="536.7" y="156" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#15171a">Technocrafts</text>
+<text x="536.7" y="178" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#6f6b62">2022 to 2025</text>
+<circle cx="770" cy="112" r="10" fill="none" stroke="#d9481c" stroke-width="2"><animate attributeName="r" values="10;26" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0" dur="2.4s" repeatCount="indefinite"/></circle>
+<circle cx="770" cy="112" r="10" fill="#d9481c" stroke="#d9481c" stroke-width="3.5"/>
+<text x="782" y="80" text-anchor="end" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif" font-size="26" font-weight="600" fill="#15171a">Bengaluru</text>
+<text x="782" y="156" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#15171a">Frog8, founding team</text>
+<text x="782" y="178" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#6f6b62">2025 to now</text>
+</svg>
