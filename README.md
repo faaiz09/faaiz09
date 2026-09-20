@@ -30,15 +30,28 @@ Outside client work, I enjoy real-time graphics and generative visuals with Thre
   <img src="./assets/terminal-dark.svg" width="100%" alt="A terminal session. whoami: Faaiz Akhtar, full-stack developer, Bengaluru. Role: Founding Member, Frog8 Technology Services. Now: kiosk UI for metro QR ticketing and card recharge. Shipped: TVM 2000, Veriphy, RM Manager, CMMS, OCR cheque reader. Learning: Laravel and PHP.">
 </picture>
 
+## Where I work
+
+[Frog8](https://frog8.co.in) designs, builds, deploys and operates self-service automation: the kiosks, and the platforms behind them, for transit, banking and other regulated industries. The points below are taken from the company's own website, and each one links to its source.
+
+- Frog8 is the Official Technology Service Provider to BMRCL, Bengaluru's Namma Metro. ([About](https://frog8.co.in/about/))
+- Its TransiGo 2000 ticket vending kiosks have been live at Namma Metro since April 2024. They now run at seven stations and handle more than 10,000 kiosk transactions a day, with 99.9% uptime. ([TransiGo](https://frog8.co.in/transigo/))
+- Its WhatsApp ticketing service for the metro processes more than 100,000 tickets a day, with no app to download. ([Deployments](https://frog8.co.in/deployments/))
+- The expanded deployment on the Yellow Line was inaugurated by the Prime Minister in August 2025. ([Home](https://frog8.co.in/))
+- The TransiGo 4000 issues a full-KYC, personalised bank card in about 45 seconds, which the company describes as a first in India outside a bank branch. ([About](https://frog8.co.in/about/))
+- The wider product family includes NaviGo banking kiosks, the Veriphy® workflow and document platform, cheque truncation (CTS) systems and F8Ops for field operations. ([Solutions](https://frog8.co.in/platforms/))
+
+<sub>These are Frog8's published figures, as they appeared on frog8.co.in in September 2026.</sub>
+
 ## Experience
 
 <details open>
 <summary><b>Frog8 Technology Services Pvt. Ltd.</b> · Founding Member and Software Developer · April 2025 to present · Bengaluru</summary>
 <br>
 
-- **BMRCL TVM 2000.** I delivered the end-to-end kiosk interface for QR ticketing and metro card recharge, with UPI, card and cash payments.
-- **Frog8 investor-facing website.** I led the build in React, Next.js, TypeScript and Tailwind CSS, including the design system, responsive layouts, animations, and OTP and QR sign-in integrations.
-- **Veriphy.** A WhatsApp-native onboarding product: QR deep links lead into WhatsApp, followed by KYC and the full document lifecycle, with OTP verification and audit trails.
+- **TransiGo 2000 for BMRCL (formerly TVM 2000).** I delivered the end-to-end kiosk interface for QR ticketing and metro card recharge, with UPI, card and cash payments.
+- **Frog8 website ([frog8.co.in](https://frog8.co.in)).** I led the build of the company's investor-facing website, including the design system, responsive layouts, animations, and the OTP and QR sign-in for the investor area.
+- **[Veriphy®](https://frog8.co.in/veriphy/).** A WhatsApp-native onboarding product: QR deep links lead into WhatsApp, followed by KYC and the full document lifecycle, with OTP verification and audit trails.
 - **RM Manager.** A field operations app built with Flutter and Android, covering geo-attendance, shift tracking, device assignment, WhatsApp escalations and leaderboards.
 - **AI and automation.** Python and MCP automations (Twilio bots and scheduled pings), RAG-based in-app assistants, and CI/CD to GCP (GKE).
 
