@@ -8,7 +8,7 @@
 
 ## About me
 
-I am a full-stack software developer and a Founding Member of [Frog8 Technology Services](https://frog8.co.in) in Bengaluru. I build product-grade web, mobile and kiosk systems for banking, fintech and enterprise customers.
+I am a full-stack software developer and a Founding Member of [Frog8 Technology Services](https://frog8.co.in) in Bengaluru, where I joined the early engineering team in April 2025. I build product-grade web, mobile and kiosk systems for banking, fintech and enterprise customers.
 
 I work across the whole stack, from the database and APIs to deployment, and the front end is the part I enjoy most. Much of what I build is used by people in a hurry: a commuter buying a QR ticket at a metro station, a bank customer updating a passbook, or a field officer marking attendance on a phone. That has shaped how I work. I care about interfaces that are clear at first glance, flows that recover gracefully when the network or the hardware fails, and code that the next engineer can pick up without a walkthrough.
 
@@ -27,7 +27,7 @@ Outside client work, I enjoy real-time graphics and generative visuals with Thre
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/terminal-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/terminal-light.svg">
-  <img src="./assets/terminal-dark.svg" width="100%" alt="A terminal session. whoami: Faaiz Akhtar, full-stack developer, Bengaluru. Role: Founding Member, Frog8 Technology Services. Now: kiosk UI for metro QR ticketing and card recharge. Shipped: TVM 2000, Veriphy, RM Manager, CMMS, OCR cheque reader. Learning: Laravel and PHP.">
+  <img src="./assets/terminal-dark.svg" width="100%" alt="A terminal session. whoami: Faaiz Akhtar, full-stack developer, Bengaluru. Role: Founding Member, Frog8 Technology Services. Now: kiosk UI for metro QR ticketing and card recharge. Shipped: TransiGo 2000, Veriphy, F8Ops, CMMS, OCR cheque reader. Learning: Laravel and PHP.">
 </picture>
 
 ## Where I work
@@ -46,13 +46,13 @@ Outside client work, I enjoy real-time graphics and generative visuals with Thre
 ## Experience
 
 <details open>
-<summary><b>Frog8 Technology Services Pvt. Ltd.</b> · Founding Member and Software Developer · April 2025 to present · Bengaluru</summary>
+<summary><b>Frog8 Technology Services Pvt. Ltd.</b> · Founding Member (early engineering team) and Software Developer · April 2025 to present · Bengaluru</summary>
 <br>
 
 - **TransiGo 2000 for BMRCL (formerly TVM 2000).** I delivered the end-to-end kiosk interface for QR ticketing and metro card recharge, with UPI, card and cash payments.
-- **Frog8 website ([frog8.co.in](https://frog8.co.in)).** I led the build of the company's investor-facing website, including the design system, responsive layouts, animations, and the OTP and QR sign-in for the investor area.
+- **Frog8 website ([frog8.co.in](https://frog8.co.in)).** I led the build of the company's investor-facing website with Astro and React, including the design system, responsive layouts, animations, and the OTP and QR sign-in for the investor area.
 - **[Veriphy®](https://frog8.co.in/veriphy/).** A WhatsApp-native onboarding product: QR deep links lead into WhatsApp, followed by KYC and the full document lifecycle, with OTP verification and audit trails.
-- **RM Manager.** A field operations app built with Flutter and Android, covering geo-attendance, shift tracking, device assignment, WhatsApp escalations and leaderboards.
+- **[F8Ops](https://frog8.co.in/deployments#bmrcl-champs) (internally RM Manager).** Frog8's field operations app, built with Flutter and Android, covering geo-attendance, shift tracking, device assignment, WhatsApp escalations and leaderboards.
 - **AI and automation.** Python and MCP automations (Twilio bots and scheduled pings), RAG-based in-app assistants, and CI/CD to GCP (GKE).
 
 </details>

@@ -38,7 +38,7 @@ TERMINAL = [  # (command, output)
     ("whoami",           "Faaiz Akhtar, full-stack developer, Bengaluru"),
     ("cat role.txt",     "Founding Member, Frog8 Technology Services"),
     ("cat now.txt",      "Kiosk UI for metro QR ticketing and card recharge"),
-    ("ls shipped/",      "tvm-2000/  veriphy/  rm-manager/  cmms/  ocr-cheque-reader/"),
+    ("ls shipped/",      "transigo-2000/  veriphy/  f8ops/  cmms/  ocr-cheque-reader/"),
     ("cat learning.txt", "Laravel and PHP"),
 ]
 
