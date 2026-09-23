@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 250" width="840" height="250" role="img" aria-labelledby="t d">
 <title id="t">GitHub at a glance</title>
-<desc id="d">24 contributions in the last year; 16 public repositories; 2021 joined GitHub. Languages: TypeScript 64%, Dart 12%, Python 11%, JavaScript 5%, C++ 3%, CMake 2%, Other 3%</desc>
+<desc id="d">19 contributions in the last year; 16 public repositories; 2021 joined GitHub. Languages: TypeScript 64%, Dart 12%, Python 11%, JavaScript 5%, C++ 3%, CMake 2%, Other 3%</desc>
 <rect width="840" height="250" rx="18" fill="#f4f0e6"/>
 <line x1="290" y1="36" x2="290" y2="214" stroke="#6f6b62" stroke-opacity=".3"/>
-<text x="40" y="78" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif" font-size="34" font-weight="600" fill="#15171a">24</text><text x="40" y="98" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#6f6b62">contributions in the last year</text>
+<text x="40" y="78" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif" font-size="34" font-weight="600" fill="#15171a">19</text><text x="40" y="98" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#6f6b62">contributions in the last year</text>
 <text x="40" y="140" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif" font-size="34" font-weight="600" fill="#15171a">16</text><text x="40" y="160" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#6f6b62">public repositories</text>
 <text x="40" y="202" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif" font-size="34" font-weight="600" fill="#15171a">2021</text><text x="40" y="222" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#6f6b62">joined GitHub</text>
 <text x="330" y="44" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#d9481c">Languages across my public repositories</text>
